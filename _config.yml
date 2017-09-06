@@ -1,0 +1,21 @@
+# Site settings
+title: The Black Sheep Dev
+header-img: img/home-bg.png
+email: alexchri@umich.edu
+copyright_name: alexchri
+description: > # this means to ignore newlines until "baseurl:"
+  An underestimated professional fueled by coffee and bacon
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  alexchri
+learn_profile: alexchri
+email_username: alexchri@umich.edu
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
